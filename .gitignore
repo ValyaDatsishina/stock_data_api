@@ -1,0 +1,92 @@
+# Общие системные файлы
+.DS_Store
+*.log
+*.swp
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+/backend/.env
+
+# Идеи и заметки
+.idea/
+*.iml
+.vscode/
+
+# Python (FastAPI)
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+mypy_cache/
+.pytype/
+.ipynb_checkpoints/
+
+# FastAPI - Миграции (если используете Alembic)
+alembic.ini
+alembic/
+migrations/
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# React / Next.js
+.next/
+out/
+dist/
+build/
+.storybook/
+.serverless/
+
+# Кэши и временные файлы
+.cache/
+.temp/
+.tmp/
+
+# Тестовые данные и дампы
+*.dump
+*.sqlite3
+*.sql
+*.bak
+
+# Документация
+
+docs/_build/
+
+
+frontend/*
+!frontend/my-app/
+
+
+
